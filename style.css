@@ -1,0 +1,204 @@
+/* General container styles */
+.container {
+  max-width: 1200px; /* Maximum width of the container */
+  margin: auto; /* Centers the container on the page */
+  padding: 0 20px; /* Padding on the left and right */
+  text-align: center; /* Aligns text to the center */
+}
+
+/* Header styling */
+h1 {
+  padding: 4%;
+  letter-spacing: 3px; /* Space between characters */
+  font-size: 50px; /* Size of the header font */
+}
+
+/* Header and subtitle common styles */
+h1, .subtitle {
+  font-family: 'Poiret One', sans-serif; /* Font family for headers and subtitles */
+  text-align: center; /* Aligns text to the center */
+  font-style: italic; /* Italicizes the font */
+
+}
+
+/* Timeline styles */
+.timeline {
+  margin-top: 20px; /* Space above the timeline */
+}
+
+/* Timeline item styles */
+.timeline-item {
+  display: flex; /* Uses flexbox for layout */
+  align-items: center; /* Centers items vertically */
+  margin-bottom: 10px; /* Space below each timeline item */
+}
+
+/* Timeline year styles */
+.timeline-year {
+  font-size: 2vw; /* Font size relative to the viewport width */
+  min-width: 60px; /* Minimum width */
+  margin-right: 20px; /* Space to the right of the year */
+  text-align: right; /* Aligns text to the right */
+}
+
+/* Timeline year header styles */
+.timeline-year + h2 {
+  font-size: 2vw; /* Font size relative to the viewport width */
+}
+
+/* Timeline content styles */
+.timeline-content {
+  padding-left: 3.5%; /* Padding to the left */
+  font-size: 1.5vw; /* Font size relative to the viewport width */
+  text-align: left; /* Aligns text to the left */
+  flex: 1; /* Allows the content to grow */
+  max-width: 1000px; /* Maximum width of the content */
+}
+
+/* Image container styles */
+.image-container {
+  margin-top: 20px; /* Space above the image container */
+  margin-bottom: 20px; /* Space below the image container */
+}
+
+/* Image styles within image container */
+.image-container img {
+  width: 100%; /* Full width */
+  height: auto; /* Height auto for aspect ratio */
+  display: block; /* Displays image as a block */
+  margin: 0 auto; /* Centers the image */
+}
+
+/* Legacy section styles */
+.legacy {
+  font-size: 2vw; /* Font size relative to the viewport width */
+  text-align: center; /* Aligns text to the center */
+  padding: 4%; /* Padding around the content */
+}
+
+/* Unordered list styles */
+ul {
+  list-style: none; /* Removes bullet points from lists */
+}
+
+/* Legacy unordered list styles */
+.legacy_ul {
+  text-align: center; /* Aligns text to the center */
+  font-style: italic; /* Italicizes the font */
+}
+
+/* List item styles */
+li {
+  padding: 7px; /* Padding inside each list item */
+  margin: 5px; /* Margin around each list item */
+}
+
+/* First letter styles in timeline content */
+.timeline-content:first-letter {
+  font-size: 32px; /* Size of the first letter */
+  font-weight: bold; /* Makes the first letter bold */
+}
+
+/* Wikipedia reference styles */
+.wikipedia-reference {
+  text-align: center; /* Aligns text to the center */
+  display: flex; /* Uses flexbox for layout */
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center; /* Centers items horizontally */
+  background-color: #bea7a7; /* Background color */
+  font-size: 1.5vw; /* Font size relative to the viewport width */
+  font-weight: normal; /* Normal font weight */
+  margin: 0.5em 0; /* Margin above and below */
+  padding: 2%; /* Padding around the content */
+}
+
+/* Header content styles */
+.header-content li {
+  padding: 0.25%; /* Example padding */
+  margin-left: 30px;
+  margin-right: 50px; /* Space between items */
+  font-size: 2vw; /* Adjust based on preference */
+  letter-spacing: 1px;
+}
+
+.header-content {
+  display: flex; /* Uses flexbox for layout */
+  justify-content: space-between; /* Distributes space between items */
+  align-items: center; /* Centers items vertically */
+  background-color: #bea7a7; /* Background color */
+  padding: 0 10px; /* Padding inside */
+}
+
+/* Navigation styles */
+.header-logo {
+  margin: 1px;
+  padding: 1px;
+  width: 3%; /* Adjust the percentage as needed */
+  height: 3%
+}
+
+nav {
+  width: 100%; /* Full width of its container */
+  margin: 0; /* No margin */
+  padding: 0; /* No padding */
+  background-color: #bea7a7; /* Background color */
+}
+
+/* Navigation unordered list styles */
+nav ul {
+  list-style-type: none; /* No bullet points */
+  margin: 0; /* No margin */
+  padding: 0; /* No padding */
+  overflow: hidden; /* Hides overflow */
+}
+
+/* Navigation list item styles */
+nav ul li {
+  float: left; /* Floats list items to the left */
+}
+
+/* Navigation link styles */
+nav ul li a {
+  display: block; /* Displays link as a block */
+  color: white; /* Text color */
+  text-align: center; /* Centers text */
+  padding: 14px 16px; /* Padding around text */
+  text-decoration: none; /* No underline */
+}
+
+/* Navigation link hover styles */
+nav ul li a:hover {
+  background-color: #856b6b; /* Background color on hover */
+}
+
+/* Styles for wrapping icons */
+.iconwrap {
+  text-align: center; /* Centers the content */
+  width: 30%; /* Width of the wrapper */
+  display: flex; /* Uses flexbox for layout */
+  justify-content: space-between; /* Distributes space evenly between icons */
+}
+
+/* Styles for large text elements */
+big {
+  width: 77%; /* Width of the element */
+  padding-bottom: 2%; /* Padding at the bottom */
+}
+
+/* Additional styling for the timeline section */
+#timeline {
+  padding: 4%; /* Padding inside the timeline */
+  font-size: 2vw; /* Font size relative to the viewport width */
+}
+
+/* Specific styles for timeline year header */
+.timeline-year h2 {
+  max-width: 180px; /* Maximum width of the year header */
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden; /* Hides overflowed content */
+  text-overflow: ellipsis; /* Adds an ellipsis to overflowed content */
+  margin: 0.5em 0; /* Margin above and below the header */
+  text-align: left; /* Aligns text to the left */
+}
+
+
